@@ -7,5 +7,5 @@ RUN rm -rf /usr/share/nginx/html/*
 # Copy your static files into Nginx's web directory
 COPY . /usr/share/nginx/html
 
-# Expose port 80 (inside container)
+# Expose port 80
 EXPOSE 80
